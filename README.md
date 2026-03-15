@@ -56,6 +56,7 @@ Remote monthly check of your network security status. Receive an update report e
 Small Business Audit:
 Comprehensive security assessment for small businesses. Covers internal network, employee devices, remote access policies, and data protection practices.
 
+
 Case Studies:
 
 Audit 001-
@@ -63,3 +64,42 @@ Client: Residential household
 Findings: Default router password in use, WPS enabled, 2 unrecoginised devices on network, 3 weak passwords idenified.
 Resolution: All vulnerabilities remediated within the same session.
 Security score improved from 40/100 to 95/100.
+
+Audit 002-
+Client: Residential household
+Findings: WiFi using outdated WPA encryption, no guest network router admin panel exposed on open port.
+Resolution: Encryption upgraded, guest network configured, admin access restricted. Full report delivered in 24 hours.
+
+Audit 003-
+Client: Residential household
+Findings: 4 critical password vulnerabilities, smart TV on main network, outdated router firmware.
+Resolution: Password manager deployed, IoT devices moved to guest network, firmware updated.
+
+
+Certifications in progress:
+
+-CompTIA security +-studying, exam schedule Month 6
+-CEH(Certified Ethical Hacker):Study begins Month 6
+-OSCP(Offensive Security):planned for College Year 2
+-CISSP:College Year 3
+
+Roadmap:
+-Home network scanner
+-Port scanner with risk flags
+-Password strength auditor
+-Local AI security agent
+-Voice AI assistant
+-Automated PDF audit report generator
+-Web vulnerability scanner
+-Phishing email detector
+-AI fine-tuned on cybersecurity data(TinyLlama+MLX)
+-Client web portal with dashboard
+-Subscription app with proprietary AI model
+
+Get In Touch
+Intrested in a security audit for your home or business?
+-GitHub: github.com/AlphaCyberSecurity
+-Email: ishaan_gaur@hotmail.com
+All audits are conducted with full written permission from the client. Alpha Cybersecurity operates in compliance with applicabble computer misuse and data protection laws.
+
+Built with Python. Powered by local AI. Founded pre-college.
