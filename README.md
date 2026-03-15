@@ -28,13 +28,13 @@ Generates a branded, professional PDF security score, itemised vulnerabilities a
 
 Tech Stack-
 Tool                                     Purpose
-Python 3.12                           Core programming language
-Ollama + llama3.2:1b                  Local AI model - runs on-device
-fpdfx3                                PDF report generation
-pyttsx3                               Text-to-speech for voice agent
-SpeechRecognition                     Voice input processing
-socket / subprocess                   Network scanning and port detection
-PyTorch                               AI model experimentation and training
+Python 3.12              -            Core programming language
+Ollama + llama3.2:1b     -             Local AI model - runs on-device
+fpdfx3                   -             PDF report generation
+pyttsx3                  -             Text-to-speech for voice agent
+SpeechRecognition        -             Voice input processing
+socket / subprocess      -             Network scanning and port detection
+PyTorch                  -             AI model experimentation and training
 
 Services-
 
