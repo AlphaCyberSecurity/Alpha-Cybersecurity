@@ -87,11 +87,9 @@ def get_mac_unix(ip):
     try:
         # Ping first to populate ARP cache
         subprocess.call(
-            ["ping", "-c", "1", "-w", "1", ip],
+            ["ping", "-c", "1", "-W", "1", ip],
             stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL
-        )
-
+            sderr=subprocess.DEVNULL)
         output = subprocess.check_output(
             ["arp", "n", ip],
             stderr=subprocess.DEVNULL
@@ -139,10 +137,11 @@ def ping_host(ip):
         stderr=subprocess.DEVNULL
     )
     return result == 0
+
 def scan_network(base_ip):
     print("\n" + "=" * 60)
     print("   ALPHA CYBERSECURITY - NETWORK SCANNER")
-    print("   Time:", datetime.now().strf("%Y-%m-%d %H:%M"))
+    print("   Time:", datetime.now().strftime("%Y-%m-%d %H:%M"))
     print("   Scanning:", base_ip + ".1 to .50")
     print("=" * 60)
     print(f"\n {'IP ADDRESS':<18}{'MAC ADDRESS':<20}{'Manufacturer':<22}{'HOSTNAME'}")
