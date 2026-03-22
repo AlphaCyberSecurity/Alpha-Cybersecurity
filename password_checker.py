@@ -56,19 +56,19 @@ def check_password(password):
     #Convert score to rating
     if score >= 8:
         rating = "EXCELLENT"
-        colour = ""
+        colour = "[PASS]"
     elif score >= 6:
         rating = "STRONG"
-        colour = ""
+        colour = "[PASS]"
     elif score >= 4:
         rating = "GOOD"
-        colour = ""
+        colour = "[WARN]"
     elif score >= 2:
         rating = "WEAK"
-        colour = ""
+        colour = "[FAIL]"
     else:
         rating = "CRITICAL - CHANGE NOW!!"
-        colour = ""
+        colour = "[!!!]"
 
     print("\n" + "=" * 45)
     print(f" {colour} RATING: {rating}")
